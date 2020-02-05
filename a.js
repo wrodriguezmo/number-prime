@@ -7,12 +7,10 @@ function numberPrime(until) {
                 primo = false;
                 break;
             }
-            debugger    
         } 
-        console.log(primo)
         if (primo) {
-            console.log(i)
             number.push(i)
         }
     }
+    console.log(number);
 }
